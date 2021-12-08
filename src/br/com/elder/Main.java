@@ -6,13 +6,13 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
        int totalMotos = 0;
        int totalBarcos = 0;
        int totalCarros = 0;
 
-       Veiculo meuVeiculoGenerico = new Veiculo("GM");
+//       Veiculo meuVeiculoGenerico = new Veiculo("GM");
 
        Moto minhaMoto1 = new Moto("Honda", 600);
 //       Moto minhaMoto2 = new Moto("Yamaha", 650);
@@ -25,7 +25,7 @@ public class Main {
 
        Estacionamento estacionamento = new Estacionamento();
 
-       estacionamento.getVeiculos().add(meuVeiculoGenerico);
+//       estacionamento.getVeiculos().add(meuVeiculoGenerico);
        estacionamento.getVeiculos().add(minhaMoto1);
 //       estacionamento.getVeiculos().add(minhaMoto2);
        estacionamento.getVeiculos().add(meuBarco1);

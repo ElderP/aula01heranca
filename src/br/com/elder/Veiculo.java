@@ -2,7 +2,7 @@ package br.com.elder;
 
 import com.sun.org.apache.xpath.internal.operations.Bool;
 
-public class Veiculo {
+public abstract class Veiculo {
 
     private String marca;
 
